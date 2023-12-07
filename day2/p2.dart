@@ -42,10 +42,6 @@ List<ColorCount> stringToColorMap(String val) {
 }
 
 void main() async {
-  const rLimit = 12;
-  const gLimit = 13;
-  const bLimit = 14;
-
   File f = File('./day2/input_day2.txt');
   final games = await f.readAsLines();
   var gameMaxColorCount = games
