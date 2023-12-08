@@ -9,7 +9,7 @@ def lcm(numbers):
     if len([x for x in numbers if (x % current_value == 0)]) == len(numbers):
       return current_value
     current_multiple += 1
-  # I believe this will eventually calculate the correct value, but my computer|
+  # I believe this will eventually calculate the correct value, but my computer
   # was being cringe so I asked wolfram alfa and it said 9,858,474,970,153
     
 
